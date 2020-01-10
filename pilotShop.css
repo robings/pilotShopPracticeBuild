@@ -4,6 +4,7 @@
 
 html {
 	font-family: "Helvetica Neue", "sans-serif";
+	font-size: 16px;
 	margin: 0;
 }
 
@@ -16,7 +17,7 @@ nav {
 	overflow: auto;
 	height: 40px;
 	color: gray;
-	font-size: 12px;
+	font-size: 0.75rem;
 	font-weight: 700;
 }
 
@@ -89,5 +90,30 @@ header {
 	background-position: center;
 	background-size: 100%;
 	height: 300px;
+	text-align: center;
+	color: white;
+	padding: 20px;
 }
 
+header h1 {
+	color: white;
+	font-size: 3rem;
+}
+
+header h2 {
+	color: white;
+	font-size: 2rem;
+}
+
+header button {
+	background-color: rgba(0, 0, 0, 0);
+	border: 1px solid white;
+	color: white;
+	height: 30px;
+	width: 100px;
+}
+
+header button:hover {
+	background-color: blue;
+	border: 1px solid blue;
+}
