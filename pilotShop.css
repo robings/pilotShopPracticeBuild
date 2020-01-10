@@ -13,20 +13,38 @@ html {
 	height: 40px;
 	color: gray;
 	text-transform: uppercase;
-	vertical-align: center;
 }
 
 .custNav div {
 	padding: 10px;
 	color: gray;
 	float: left;
-	width: 200px;
+	width: auto;
 }
 
 .custNav ul {
 	list-style-type: none;
+	overflow: auto;
 }
 
 .custNav li {
 	color: gray;
+	width: auto;
+	float: left;
+	padding-right: 10px;
 }
+
+.custNav .navBorder {
+	border-left: 1px solid gray;
+	border-right: 1px solid gray; 
+}
+
+nav form {
+	float: right;
+}
+
+nav input {
+	border: 0;
+	background-color: white;
+}
+
