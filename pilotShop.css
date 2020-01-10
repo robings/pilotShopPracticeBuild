@@ -16,15 +16,16 @@ nav {
 	overflow: auto;
 	height: 40px;
 	color: gray;
+	font-size: 12px;
+	font-weight: 700;
 }
 
 .custNav div {
 	padding: 10px;
-	color: gray;
 	float: left;
 }
 
-.custNav ul {
+.custNav ul, .storeNav ul {
 	list-style-type: none;
 	overflow: auto;
 	padding: 0;
@@ -32,7 +33,6 @@ nav {
 }
 
 .custNav li {
-	color: gray;
 	width: auto;
 	float: left;
 	padding-right: 10px;
@@ -51,5 +51,34 @@ nav form {
 nav input {
 	border: 0;
 	background-color: white;
+}
+
+.storeNav {
+	width: 100%;
+	overflow: auto;
+	color: black;
+	font-weight: 700;
+	height: 200px;
+}
+
+.storeNav div {
+	padding: 10px;
+	float: left;
+}
+
+.storeNavBorder {
+	padding: 15px;
+	border: 3px solid black;
+	margin: 10px;
+}
+
+.storeNavLink {
+	padding: 15px;
+	margin: 10px;
+	border: 3px solid rgba(0, 0, 0, 0);
+}
+
+.storeNavLink:hover {
+	border: 3px solid black;
 }
 
