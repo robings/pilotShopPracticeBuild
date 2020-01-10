@@ -7,13 +7,26 @@ html {
 	margin: 0;
 }
 
-nav.custNav {
+.custNav {
 	width: 100%;
 	overflow: auto;
 	height: 40px;
 	color: gray;
+	text-transform: uppercase;
+	vertical-align: center;
 }
 
-nav div {
+.custNav div {
 	padding: 10px;
+	color: gray;
+	float: left;
+	width: 200px;
+}
+
+.custNav ul {
+	list-style-type: none;
+}
+
+.custNav li {
+	color: gray;
 }
