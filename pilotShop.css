@@ -117,3 +117,41 @@ header button:hover {
 	background-color: blue;
 	border: 1px solid blue;
 }
+
+div.overlap {
+	width: 80%;
+	overflow: auto;
+	margin: 0px auto;
+}
+
+.container {
+	background-color: white;
+	margin: 0px 10px;
+	float: left;
+	position: relative;
+}
+
+.overlap h1 {
+	font-size: 2rem;
+	color: white;
+}
+
+.overlap h2 {
+	font-size: 1.5rem;
+	color: white;
+}
+
+.colorBox1 {
+	background-color: lightblue;
+	padding: 10px;
+}
+
+.colorBox2 {
+	background-color: teal;
+	padding: 10px;
+}
+
+.colorBox3 {
+	background-color: darkgreen;
+	padding: 10px;
+}
